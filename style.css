@@ -1,0 +1,97 @@
+@font-face{
+    font-family: Acme;
+    src: url(Fonts/Acme/Acme-Regular.ttf);
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Acme', cursive;
+}
+button{
+    border-radius: 10px;
+    border: none;
+    height: 50px;
+    width: 60px;
+    font-size: 1.5em;
+}
+td{
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    border: none;
+}
+
+.tbl{
+    border-radius: 15px;
+    margin: 100px 520px;
+    width: 270px;
+    background-color: rgb(112, 112, 122);
+    padding: 10px;
+}
+
+input {
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+.btnE {
+    width: 95%;
+    align-content: center;
+}
+
+.btnNum {
+        box-shadow:inset 0px 1px 0px 0px #dcecfb;
+        background:linear-gradient(to bottom, #bddbfa 5%, #80b5ea 100%);
+        background-color:#bddbfa;
+        border-radius:6px;
+        border:1px solid #84bbf3;
+        display:inline-block;
+        cursor:pointer;
+        color: black;
+        /* font-family:Arial; */
+        font-family: 'Acme', cursive;
+        font-size:25px;
+        font-weight:bold;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #528ecc;
+    
+}
+
+.btnOper{
+        box-shadow: 0px 1px 0px 0px #1c1b18;
+        background:linear-gradient(to bottom, #f8f6f1 5%, #f5f3ed 100%);
+        background-color:#f5f3ee;
+        border-radius:15px;
+        /* border:2px solid #333029; */
+        display:inline-block;
+        cursor:pointer;
+        color:#505739;
+        font-family: 'Acme', cursive;
+        /* font-family:Arial; */
+        font-size:20px;
+        font-weight:bold;
+        padding:12px 16px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #ffffff;
+        
+}
+
+.btnClear{
+        box-shadow:inset 0px 1px 0px 0px #f29c93;
+        background:linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%);
+        background-color:#fe1a00;
+        border-radius:6px;
+        border:1px solid #d83526;
+        display:inline-block;
+        cursor:pointer;
+        font-family: 'Acme', cursive;
+        color:#ffffff;
+        /* font-family:Arial; */
+        font-size:20px;
+        font-weight:bold;
+        padding:6px 24px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #b23e35;    
+}
